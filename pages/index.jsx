@@ -13,7 +13,7 @@ const Home = () => {
     let nfts; 
     console.log("fetching nfts");
     
-    const api_key = ""
+    const api_key = "jP5c00dHZ53S3aR9Vs1y9j9mSIJPLEia"
 
 
 
@@ -44,7 +44,7 @@ const Home = () => {
       var requestOptions = {
         method: 'GET'
       };
-      const api_key = ""
+      const api_key = "jP5c00dHZ53S3aR9Vs1y9j9mSIJPLEia"
 
 
       const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTsForCollection/`;
